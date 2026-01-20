@@ -3,11 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
- "scripts": {
+  "scripts": {
   "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
+  "build": "node ./node_modules/vite/bin/vite.js build",
+  "preview": "vite preview",
+  "lint": "eslint ."
 },
+
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "react": "^18.3.1",
