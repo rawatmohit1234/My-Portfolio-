@@ -2,6 +2,7 @@ import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
 import myPhoto from '../../assets/ProfileImage/mohit.png';
+import cv from "../../assets/cv.png";
 
 
 const About = () => {
@@ -49,7 +50,7 @@ const About = () => {
 
           {/* Resume Button */}
           <a
-            href="d:\Desktop\Resume(Mohit).pdf"
+            href={cv}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block mt-8 text-white font-bold py-3 px-10 rounded-full text-lg 
